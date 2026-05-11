@@ -1,7 +1,7 @@
-let mensagem = "";
+let soma = 0;
 
 for (let i = 1; i <= 10; i++) {
-  mensagem += `${i} `;
+  soma += i;
   }
 
-alert(mensagem);
+alert(`${soma}`);
