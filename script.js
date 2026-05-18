@@ -15,7 +15,9 @@ switch (resposta) {
   case 1:
     alert("Você escolheu inserir produto");
     resposta = 0;
+    break;
   default:
+    alert("Você não escolheu uma opção válida");
     break;
 }
 }
