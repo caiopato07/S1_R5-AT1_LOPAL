@@ -1,8 +1,18 @@
 let  menuOn = true;
+let respota =0;
 while(menuOn == true){
-  if (prompt(`1 - Inserir produto
+  resposta = Number(prompt(`1 - Inserir produto
 2 - Listar produtos
-3 - Sair)`) == 3){
-  menuOn= false;
+3 - Sair)`));
+  if (resposta == 3) {
+    menuOn=false;
 }
+  if (resposta == 1){
+    alert("Você escolheu inserir produto");
+    resposta = 0;
+  }
+  if(resposta ==2){
+    alert("Você escolheu listar produto");
+    reposta = 0;
+  }
 }
